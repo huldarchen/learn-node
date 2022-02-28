@@ -8,11 +8,13 @@
         <version>2.6.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.huldarchen</groupId>
     <artifactId>spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring</name>
     <description>spring</description>
+
     <properties>
         <java.version>1.8</java.version>
         <antlr.version>4.9.1</antlr.version>
@@ -62,6 +64,11 @@
             <groupId>org.antlr</groupId>
             <artifactId>antlr4-maven-plugin</artifactId>
             <version>${antlr.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-common</artifactId>
+            <version>3.1.2</version>
         </dependency>
     </dependencies>
 
